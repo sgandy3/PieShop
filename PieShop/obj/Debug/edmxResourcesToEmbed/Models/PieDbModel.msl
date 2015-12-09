@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PieShopModelStoreContainer" CdmEntityContainer="PieShopEntities1">
+    <EntitySetMapping Name="Pies">
+      <EntityTypeMapping TypeName="PieShopModel.Pie">
+        <MappingFragment StoreEntitySet="Pies">
+          <ScalarProperty Name="PieID" ColumnName="PieID" />
+          <ScalarProperty Name="Flavor" ColumnName="Flavor" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
